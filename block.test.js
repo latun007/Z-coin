@@ -4,7 +4,7 @@ const cryptoHash= require('./crypto-hash');
 
 describe('Block',() => {
     const timestamp = 'a-date';
-    const lastHash = 'mera-hash';
+    const lastHash = 'mera-hath';
     const hash = 'bar-hash';
     const data= ['blockchain','data'];
     const block= new Block({timestamp, lastHash, hash, data});
